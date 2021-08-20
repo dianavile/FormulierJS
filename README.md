@@ -7,7 +7,7 @@ In deze videotutorial maakt Diana Vilé een formulier met login en registratiege
 - [v] setup basic html, css, js
 - [v] add responsive layout
 - [v] add hover states for interactive pageelements
-  - [] add Javascript validation functions to receive an error message when the form is submitted if:
+- [] add Javascript validation functions to receive an error message when the form is submitted if:
   - Any input field is empty
   - The email address is not formatted correctly 
   - A succes message when the form is submitted if input field is filled.
@@ -17,7 +17,7 @@ In deze videotutorial maakt Diana Vilé een formulier met login en registratiege
 - [v] add DEMO img to readme file
 
 ## DEMO
-![name-of-you-image](https://your-copied-image-address)
+![loginformulier](https://github.com/dianavile/FormulierJS/blob/main/design/loginformulier.JPG)
 ![name-of-you-image](https://your-copied-image-address)
 ![https://formulierjs.vilediana.repl.co/#]
 
