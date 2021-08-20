@@ -22,8 +22,7 @@ In deze videotutorial maakt Diana Vilé een formulier met login en registratiege
 ![https://formulierjs.vilediana.repl.co/#]
 
 ### CODE
-Repl met de code:
-[https://replit.com/@VileDiana/FormulierJS?v=1]
+[Repl met](de code](https://replit.com/@VileDiana/FormulierJS?v=1)
 
 ### Resources
 - [https://stackoverflow.com/questions/23134756/simple-javascript-login-form-validation]
