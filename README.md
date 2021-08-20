@@ -2,24 +2,24 @@
 In deze videotutorial maakt Diana Vilé een formulier met login en registratiegedeelte in HTML, CSS, en JavaScript, inclusief JS Validatie.
 
 ## Features & process
-[v] create dataflow: onclick login, register
-[v] create design
-[v] setup basic html, css, js
-[v] add responsive layout
-[v] add hover states for interactive pageelements
-[] add Javascript validation functions to receive an error message when the form is submitted if:
-- Any input field is empty
-- The email address is not formatted correctly
-a succes message when the form is submitted if:
-- input field is filled.
-[] test JS code
-[v] clean up code
-[v] create readme file
-[v] add DEMO img to readme file
+- [v] create dataflow: onclick login, register
+- [v] create design
+- [v] setup basic html, css, js
+- [v] add responsive layout
+- [v] add hover states for interactive pageelements
+  - [] add Javascript validation functions to receive an error message when the form is submitted if:
+  - Any input field is empty
+  - The email address is not formatted correctly 
+  - A succes message when the form is submitted if input field is filled.
+- [] test JS code
+- [v] clean up code
+- [v] create readme file
+- [v] add DEMO img to readme file
 
 ## DEMO
+![name-of-you-image](https://your-copied-image-address)
+![name-of-you-image](https://your-copied-image-address)
 ![https://formulierjs.vilediana.repl.co/#]
-
 
 ### CODE
 Repl met de code:
