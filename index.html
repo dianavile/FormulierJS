@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>FormulierJS</title>
+    <link rel="shortcut icon" type="image/jpg" href="/img/favicon-32x32.png" />
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form
+            name="loginform"
+            onSubmit="return validateForm();"
+            action="#"
+            class="sign-in-form"
+            method="post"
+          >
+            <h2 class="title">Al geregistreerd?</h2>
+            <p>Log hier opnieuw in!</p>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input
+                type="email"
+                autocomplete="email"
+                placeholder="E-mail"
+                maxlength="256"
+                required=""
+              />
+            </div>
+            <!-- TODO: ADD ERROR HANDLING -->
+            <!-- <i class="error error-icon fas fa-exclamation-circle"></i>
+              <div class="error error-text">Wachtwoord kan niet leeg zijn.</div> -->
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input
+                type="password"
+                autocomplete="password"
+                placeholder="Wachtwoord"
+                maxlength="256"
+                id="current-wachtwoord"
+                required=""
+              />
+              <!-- TODO: ADD ERROR HANDLING -->
+              <!-- <i class="error error-icon fas fa-exclamation-circle"></i>
+              <div class="error error-text">Wachtwoord kan niet leeg zijn.</div> -->
+            </div>
+            <a href="#/ms/password-reset" class="inline-link"
+              >Wachtwoord vergeten?</a
+            >
+            <input type="submit" value="Log in" class="btn solid" />
+            <div class="group">
+              <input id="check" type="checkbox" class="check" checked />
+              <label for="check">
+                <span class="icon"></span>
+                Blijf ingelogd
+              </label>
+            </div>
+          </form>
+
+          <form
+            id="email-form"
+            name="email-form"
+            action="#"
+            class="sign-up-form"
+            method="post"
+          >
+            <h2 class="title">Registreer account</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input
+                type="text"
+                autocomplete="username"
+                id="username"
+                placeholder="Gebruikersnaam"
+                required=""
+              />
+            </div>
+            <!-- TODO: ADD ERROR HANDLING -->
+            <!-- <i class="error error-icon fas fa-exclamation-circle"></i>
+              <div class="error error-text">Gebruikersnaam kan niet leeg zijn.</div> -->
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input
+                type="email"
+                id="email"
+                placeholder="E-mail"
+                autocomplete="email"
+                required=""
+              />
+            </div>
+            <!-- TODO: ADD ERROR HANDLING -->
+            <!-- <i class="error error-icon fas fa-exclamation-circle"></i>
+              <div class="error error-text">Wachtwoord kan niet leeg zijn.</div> -->
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input
+                type="password"
+                autocomplete="password"
+                placeholder="Wachtwoord"
+                maxlength="256"
+                id="new-wachtwoord"
+                required=""
+              />
+            </div>
+            <!-- TODO: ADD ERROR HANDLING -->
+            <!-- <i class="error error-icon fas fa-exclamation-circle"></i>
+              <div class="error error-text">Wachtwoord kan niet leeg zijn.</div> -->
+            <input type="submit" class="btn" value="Registreer" />
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Nog niet geregistreerd?</h3>
+            <p>Word nu gratis lid!</p>
+            <button class="btn transparent" id="sign-up-btn">Registreer</button>
+          </div>
+          <img src="img/login.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Welkom terug</h3>
+            <p>Fijn dat je er weer bij bent!</p>
+            <button
+              class="btn transparent"
+              id="sign-in-btn"
+              data-wait="Even geduld aub..."
+            >
+              log in
+            </button>
+          </div>
+          <img src="img/registreer.svg" class="image" alt="" />
+        </div>
+      </div>
+    </main>
+    <script src="formulier.js"></script>
+  </body>
+</html>
