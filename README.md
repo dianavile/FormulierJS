@@ -1,5 +1,5 @@
 # FORMULIERJS
-In deze videotutorial maakt junior CodeCafé docent Diana Vilé een formulier met login en registratiegedeelte in HTML, CSS, en JavaScript, inclusief JS Validatie.
+In deze videotutorial maakt Diana Vilé een formulier met login en registratiegedeelte in HTML, CSS, en JavaScript, inclusief JS Validatie.
 
 ## Features & process
 [v] create dataflow: onclick login, register
