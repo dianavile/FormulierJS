@@ -42,7 +42,3 @@ All That I Needed by Vlad Gluschenko | https://soundcloud.com/vgl9
 Music promoted by https://www.free-stock-music.com
 Creative Commons Attribution 3.0 Unported License
 https://creativecommons.org/licenses/by/3.0/deed.en_US
-
-
-YOUTUBE TUTORIAL
-https://www.youtube.com/watch?v=GQYSI7XkR9U
